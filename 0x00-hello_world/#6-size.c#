@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main() {
+    int intType;
+    float floatType;
+    double doubleType;
+    char charType;
+/**
+ * main - Entry point
+ *
+ * Description: sizeof.
+ *
+ * Return: Always 0 
+*/
