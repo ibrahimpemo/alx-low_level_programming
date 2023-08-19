@@ -1,0 +1,13 @@
+git fetch origin master
+git merge origin master
+
+
+error: (non-fast-forward)
+git fetch origin master:tmp
+git rebase tmp
+git push origin HEAD:master
+git branch -D tmp
+
+force op
+git push origin master --force
+
