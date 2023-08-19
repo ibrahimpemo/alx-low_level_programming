@@ -1,16 +1,18 @@
-#include"main.h"
-
+#include "main.h"
 /**
- * main - Entry point
+ * _isalpha - Checking for alphabetic character.
+ * @c: The character to check.
  *
- * Description:  isalpha
- *
- * Return: 1 OR 1
+ * Return: (1) if c is letter, lowercase or uppercase, otherwise return (0).
 */
-
-int _islower(int c)
+int _isalpha(int c)
 {
-	if (c >= 97 && c <= 122)
+	if (islower(c) || isupper(c))
+	{
 		return (1);
-	return (0);
+	}
+	else
+	{
+		return (0);
+	}
 }
