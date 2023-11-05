@@ -1,0 +1,14 @@
+#!/bin/bash
+echo "Ibrahim Maher"
+echo "alx-system_engineering-devops"
+echo "Input File Name : "
+read name
+touch ${name}
+echo "Input Task"
+read task
+echo "#!/bin/bash
+${task}" > ${name}
+chmod u+x ${name}
+echo "You Established This Script ---> ${name} Successfully! "
+cd ..
+./git
